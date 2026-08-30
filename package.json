@@ -1,15 +1,15 @@
 {
   "name": "gosling",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A small coding agent, and creative agent on the same loop.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "typecheck": "tsc --noEmit",
+    "gosling": "tsx src/cli.ts"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "type": "commonjs",
+  "license": "MIT",
+  "type": "module",
   "dependencies": {
     "@anthropic-ai/sdk": "^0.122.0"
   },
